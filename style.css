@@ -1,0 +1,32 @@
+#api-users {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    background-color: beige;
+    
+}
+
+#ul-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#load-previous,
+#load-more {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
